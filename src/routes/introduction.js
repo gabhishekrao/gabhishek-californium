@@ -7,4 +7,4 @@ const personEmail = "sabiha@gmail.com"
 
 
 module.exports.myEmail = personEmail
-module.exports.myFunction = greetPerson
+module.exports.myFunction = greetPerson 
