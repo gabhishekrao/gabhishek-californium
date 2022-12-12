@@ -27,6 +27,8 @@ let filmId = function (a) {
     for (let i = 0; i < obj.length; i++) {
         if (a == i) {
             main = obj[i]
+        } else {
+            return "No movie exists with this id"
         }
     }
     return main
@@ -34,4 +36,4 @@ let filmId = function (a) {
 
 
 module.exports.obj = obj
-module.exports.filmId = filmIdSS
+module.exports.filmId = filmId

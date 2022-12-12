@@ -1,4 +1,4 @@
-let arr = ['Hello Brother', 'Batman', 'Mask', 'Venom', 'Mass']
+/* let arr = ['Hello Brother', 'Batman', 'Mask', 'Venom', 'Mass']
 
 let index = function (a) {
     let main = []
@@ -15,4 +15,4 @@ let index = function (a) {
 
 
 module.exports.arr = arr
-module.exports.index = index
+module.exports.index = index */
