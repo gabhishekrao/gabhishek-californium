@@ -26,11 +26,14 @@ Think of this like getting an ID card the first day of your college and then sho
     "__v" : 0
 }
 ```
-
+ 
 
 - Write a **POST api /users** to register a user from the user details in request body. 
 - Write a ***POST api /login** to login a user that takes user details - email and password from the request body. If the credentials don't match with any user's data return a suitable error.
 On successful login, generate a JWT token and return it in response body. Example 
+
+
+{eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2M2FiMWRhY2FkNzFlMDBiN2M4YmQ1NmMiLCJiYXRjaCI6ImNhbGlmb3JuaXVtIiwib3JnYW5pc2F0aW9uIjoiRnVuY3Rpb25VcCIsImlhdCI6MTY3MjE1OTExN30.XBGzxFoUEgLAzQO7V_94SGqcXiYfM9Ro-zVozDaLKGU}
 ```
 {
     status: true,
@@ -49,3 +52,4 @@ If present, check that the token is valid.
 
 
 
+ 
