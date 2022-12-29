@@ -80,18 +80,18 @@ const getBooksData = async function (req, res) {
         res.send({msg: allBooks}) 
     } */
 
-     //let bookList = await BookModel.find().select({ bookName: 1, authorName: 1, _id: 0 }).count()
+    //let bookList = await BookModel.find().select({ bookName: 1, authorName: 1, _id: 0 }).count()
 
     //let getBookInYear = await BookModel.find({year : 2022})
-    
-    //let getParticularBooks = await BookModel.find({ bookName: /^best/i })
-
-   // let getXINRBooks = await BookModel.find({'prices.indianPrice' : '250'})
-
-   // let getRandomBooks = await BookModel.find({ totalPages: { $gte: 1500 } })
 
 
-    res.send({ msg: getRandomBooks })
+    // let getXINRBooks = await BookModel.find({'prices.indianPrice' : '250'})
+
+    // let getRandomBooks = await BookModel.find({ totalPages: { $gte: 1500 } })
+    let a = req.body
+    let getParticularBooks = await BookModel.find({ a })
+
+    res.send({ msg: getParticularBooks })
 
 }
 
